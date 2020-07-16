@@ -6,6 +6,10 @@ This is my implementation of an on-policy first-visit MC control for epsilon-gre
 
 The algorithm in the book is as follows:
 
+### Hyperparameters
 
+### Convergence
+
+### Q-States
 
 
