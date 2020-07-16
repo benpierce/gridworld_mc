@@ -9,6 +9,7 @@ The algorithm in the book is as follows:
 ### Hyperparameters
 
 **ε** = 0.1
+
 **γ** = 1
 
 ### Convergence
