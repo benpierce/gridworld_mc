@@ -1,4 +1,4 @@
-## Gridworld with Monte Carlo on-policy first-visit MC control (for epsilon-greedy policies)
+## Gridworld with Monte Carlo on-policy first-visit MC control (for ε-greedy policies)
 
 ### Overview
 
@@ -8,8 +8,15 @@ The algorithm in the book is as follows:
 
 ### Hyperparameters
 
+**ε** = 0.1
+**γ** = 1
+
 ### Convergence
 
+Things start to converge around the 500th episode; and by episode 5000 the policy is in an optimal state. By the 50,000th episode the Q-values have stabilized to about 1 decimal place:
+
 ### Q-States
+
+In the following Q-state table you can see some of the final Q-states in addition to how many times each Q state was refresh: as you can see, the optimal Q-states are visited most of the time; however, there is some exploration happening thanks to the ε-greedy policy.
 
 
